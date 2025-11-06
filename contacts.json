@@ -1,0 +1,25 @@
+[
+    {
+    "firstName": "Sophia",
+    "lastName": "Akwero",
+    "email": "akwerosophia636@gmail.com",
+    "favoriteColor": "Red",
+    "birthday": "16/01/2002"
+    },
+
+    {
+    "firstName": "Mirriam",
+    "lastName": "Akwero",
+    "email": "akelloomirriam@gmail.com",
+    "favoriteColor": "yellow",
+    "birthday": "11/10/2015"
+    },
+
+    {
+    "firstName": "Mercy",
+    "lastName": "Akot",
+    "email": "akotmercy@gmail.com",
+    "favoriteColor": "green",
+    "birthday": "22/01/2005"
+    }    
+]

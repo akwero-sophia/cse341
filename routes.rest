@@ -1,0 +1,13 @@
+// LOCAL TESTING COMMAND 
+### ALL CONTACTS 
+GET http://localhost:3000/contacts/
+
+### CONTACT 1 
+GET http://localhost:3000/contacts/690ccd74d189441efbd05286
+
+### CONTACT 2 
+GET http://localhost:3000/contacts/690ccd74d189441efbd05287
+
+### CONTACT 3 
+GET http://localhost:3000/contacts/690ccd74d189441efbd05288
+
