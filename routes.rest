@@ -11,3 +11,15 @@ GET http://localhost:3000/contacts/690ccd74d189441efbd05287
 ### CONTACT 3 
 GET http://localhost:3000/contacts/690ccd74d189441efbd05288
 
+// PRODUCTION TESTING COMMAND
+### ALL CONTACTS
+GET https://cse341-ks3d.onrender.com/contacts/
+
+### CONTACT 1
+GET https://cse341-ks3d.onrender.com/contacts/690ccd74d189441efbd05286
+
+### CONTACT 2
+GET https://cse341-ks3d.onrender.com/contacts/690ccd74d189441efbd05287
+
+### CONTACT 3
+GET https://cse341-ks3d.onrender.com/contacts/690ccd74d189441efbd05288
