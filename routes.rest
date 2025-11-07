@@ -4,12 +4,39 @@ GET http://localhost:3000/contacts/
 
 ### CONTACT 1 
 GET http://localhost:3000/contacts/690ccd74d189441efbd05286
-
-### CONTACT 2 
+### CONTACT 2
 GET http://localhost:3000/contacts/690ccd74d189441efbd05287
 
-### CONTACT 3 
+### CONTACT 3
 GET http://localhost:3000/contacts/690ccd74d189441efbd05288
+
+### CREATE NEW CONTACT (POST)
+POST http://localhost:3000/contacts/
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "1990-05-15"
+}
+
+### UPDATE CONTACT (PUT) - Replace with actual ID
+PUT http://localhost:3000/contacts/690ccd74d189441efbd05286
+Content-Type: application/json
+
+{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe@example.com",
+    "favoriteColor": "Green",
+    "birthday": "1992-08-20"
+}
+
+### DELETE CONTACT - Replace with actual ID
+DELETE http://localhost:3000/contacts/690ccd74d189441efbd05288
+
 
 // PRODUCTION TESTING COMMAND
 ### ALL CONTACTS
@@ -23,3 +50,30 @@ GET https://cse341-ks3d.onrender.com/contacts/690ccd74d189441efbd05287
 
 ### CONTACT 3
 GET https://cse341-ks3d.onrender.com/contacts/690ccd74d189441efbd05288
+
+### CREATE NEW CONTACT (POST)
+POST https://cse341-ks3d.onrender.com/contacts/
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "favoriteColor": "Blue",
+    "birthday": "1990-05-15"
+}
+
+### UPDATE CONTACT (PUT) - Replace with actual ID
+PUT https://cse341-ks3d.onrender.com/contacts/690ccd74d189441efbd05286
+Content-Type: application/json
+
+{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe@example.com",
+    "favoriteColor": "Green",
+    "birthday": "1992-08-20"
+}
+
+### DELETE CONTACT - Replace with actual ID
+DELETE https://cse341-ks3d.onrender.com/contacts/690ccd74d189441efbd05288
