@@ -6,8 +6,8 @@ const doc = {
     description: 'API for managing contacts',
     version: '1.0.0'
   },
-  host: 'localhost:3000',
-  schemes: ['http'],
+  host: 'cse341-ks3d.onrender.com',
+  schemes: ['https'],
   consumes: ['application/json'],
   produces: ['application/json'],
   tags: [
