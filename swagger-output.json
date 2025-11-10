@@ -173,23 +173,23 @@
       "properties": {
         "firstName": {
           "type": "string",
-          "example": "John"
+          "example": "Aya"
         },
         "lastName": {
           "type": "string",
-          "example": "Doe"
+          "example": "Rose"
         },
         "email": {
           "type": "string",
-          "example": "john.doe@example.com"
+          "example": "aya.rose@example.com"
         },
         "favoriteColor": {
           "type": "string",
-          "example": "Blue"
+          "example": "purple"
         },
         "birthday": {
           "type": "string",
-          "example": "1990-05-15"
+          "example": "1995-10-12"
         }
       }
     }
