@@ -18,11 +18,11 @@ const doc = {
   ],
   definitions: {
     Contact: {
-      firstName: 'John',
-      lastName: 'Doe',
-      email: 'john.doe@example.com',
-      favoriteColor: 'Blue',
-      birthday: '1990-05-15'
+      firstName: 'Aya',
+      lastName: 'Rose',
+      email: 'aya.rose@example.com',
+      favoriteColor: 'purple',
+      birthday: '1995-10-12'
     }
   }
 };
