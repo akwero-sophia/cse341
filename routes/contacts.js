@@ -17,11 +17,11 @@ router.get("/:id", contactsController.getContactById);
     description: 'Contact information',
     required: true,
     schema: {
-        firstName: "John",
-        lastName: "Doe",
-        email: "john.doe@example.com",
-        favoriteColor: "Blue",
-        birthday: "1990-05-15"
+        firstName: "Aya",
+        lastName: "Rose",
+        email: "aya.rose@example.com",
+        favoriteColor: "purple",
+        birthday: "1995-10-12"
     }
 } */
 router.post("/", contactsController.createContact);
@@ -34,11 +34,11 @@ router.post("/", contactsController.createContact);
     description: 'Updated contact information',
     required: true,
     schema: {
-        firstName: "Jane",
-        lastName: "Doe",
-        email: "jane.doe@example.com",
-        favoriteColor: "Green",
-        birthday: "1992-08-20"
+        firstName: "Aya",
+        lastName: "Rose",
+        email: "aya.rose@example.com",
+        favoriteColor: "purple",
+        birthday: "1995-10-12"
     }
 } */
 router.put("/:id", contactsController.updateContact);
